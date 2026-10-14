@@ -128,7 +128,7 @@ export const Book = forwardRef<BookHandle, BookProps>(function Book(
         <Spread
           left={
             <div className="relative h-full w-full">
-              <Page>{spreads[index - 1]?.left ?? null}</Page>
+              <Page>{index > 0 ? (spreads[index - 1]?.left ?? null) : spreads[index]!.left}</Page>
               {index > 0 && (
                 <PageTurn
                   key={`prev-${index}`}
@@ -143,7 +143,7 @@ export const Book = forwardRef<BookHandle, BookProps>(function Book(
           }
           right={
             <div className="relative h-full w-full">
-              <Page>{spreads[index + 1]?.right ?? null}</Page>
+              <Page>{index < spreads.length - 1 ? (spreads[index + 1]?.right ?? null) : spreads[index]!.right}</Page>
               {index < spreads.length - 1 && (
                 <PageTurn
                   key={`next-${index}`}
