@@ -1,0 +1,36 @@
+/* Part B.3 — natural pigment palette. No gradients-as-decoration: gradients
+   only ever represent real light (lantern glow, dawn), never UI chrome. */
+:root {
+  --paper: #f3ead8;
+  --paper-shade: #e4d6bc;
+  --ink: #1c1a17;
+  --kattha: #6b3a2a;
+  --indigo: #22305a;
+  --turmeric: #e0a526;
+  --laterite: #b5452b;
+  --leaf: #3f6b3a;
+  --peacock: #14646b;
+  --night: #0f1424;
+
+  /* Part B.4 — fluid type scale */
+  --fs-display: clamp(2.75rem, 1.6rem + 5.5vw, 7.5rem); /* 44 - 120px */
+  --fs-h1: clamp(2rem, 1.3rem + 3vw, 4rem); /* 32 - 64px */
+  --fs-h2: clamp(1.5rem, 1.1rem + 1.8vw, 2.5rem); /* 24 - 40px */
+  --fs-body: clamp(1.0625rem, 1rem + 0.3vw, 1.1875rem); /* 17 - 19px */
+  --fs-label: clamp(0.75rem, 0.72rem + 0.1vw, 0.8125rem); /* 12 - 13px */
+
+  --lh-latin: 1.4;
+  --lh-devanagari: 1.61; /* ~1.15x Latin, per B.4 */
+  --tracking-label: 0.12em;
+  --tracking-wordmark: 0.06em;
+
+  --radius-none: 0; /* no rounded rectangles anywhere except the hold-to-weave ring */
+  --ring-hold-to-weave: 9999px;
+
+  --touch-target-min: 44px;
+
+  --ease-page-turn: cubic-bezier(0.6, 0.05, 0.2, 1);
+}
+
+/* Each world StyleKit (Part B.6) overrides a subset of these tokens, e.g.:
+   [data-world="banyan"] { --accent: var(--leaf); --accent2: var(--turmeric); } */

@@ -1,0 +1,13 @@
+{
+  "_note": "Empty scaffold (Part B.4). Mirrors the key structure of en.json. Populate once Hindi copy is translated and reviewed — do not machine-translate storytelling copy without a native-speaker pass.",
+  "brand": {},
+  "landing": {},
+  "hero": {},
+  "companion": { "options": {} },
+  "world": {},
+  "theme": { "hints": {} },
+  "weave": {},
+  "result": {},
+  "share": {},
+  "footer": {}
+}

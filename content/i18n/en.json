@@ -1,0 +1,74 @@
+{
+  "brand": {
+    "wordmark": "KATHA",
+    "wordmarkDevanagari": "कथा",
+    "descriptor": "A land of a million stories. Now one is theirs.",
+    "awardNarrative": "India has always told children extraordinary stories. Katha puts the child inside them."
+  },
+  "landing": {
+    "headlineLine1": "EVERY STORY",
+    "headlineLine2": "IS WAITING FOR",
+    "headlineLine3": "ITS HERO.",
+    "subhead": "Who will yours be?",
+    "cta": "BEGIN YOUR STORY",
+    "trustLine": "Launch price from ₹199 · Takes 60 seconds · No sign-up"
+  },
+  "hero": {
+    "leftPage": "Every story begins with a traveller.",
+    "prompt": "What is our hero called?",
+    "namePlaceholder": "Your child's first name",
+    "agePrompt": "How old is our hero? (optional)",
+    "liveInkTemplate": "Tonight, {name} begins an adventure…",
+    "nameError": "Even heroes need a name."
+  },
+  "companion": {
+    "prompt": "No hero travels alone.",
+    "options": {
+      "tiger": "Brave. Restless. Loyal.",
+      "elephant": "Wise. Gentle. Impossible to hurry.",
+      "monkey": "Clever. Curious. Usually responsible for the problem.",
+      "peacock": "Proud. Observant. Dramatic.",
+      "cobra": "Mysterious. Patient. Knows more than it says."
+    }
+  },
+  "world": {
+    "prompt": "Every adventure begins somewhere."
+  },
+  "theme": {
+    "prompt": "Every great adventure teaches us something.",
+    "hints": {
+      "courage": "For the child about to try something new.",
+      "kindness": "For the child learning that others feel things too.",
+      "patience": "For the child who wants everything now.",
+      "curiosity": "For the child who asks \"but why?\"",
+      "friendship": "For the child making their first real friends."
+    }
+  },
+  "weave": {
+    "holdPrompt": "Press and hold to weave the story",
+    "buttonFallback": "Weave my story",
+    "skip": "Skip"
+  },
+  "reveal": {
+    "caveatLine": "Created especially for {name}",
+    "subtitleTemplate": "{name} & the {epithet} {animal}",
+    "replay": "↺ Watch the weaving again",
+    "announcement": "The cover is revealed."
+  },
+  "result": {
+    "headlineTemplate": "{name}'s story is waiting.",
+    "readPreview": "READ A PREVIEW",
+    "getStory": "GET THE STORY: ₹199",
+    "deluxeLink": "or the deluxe edition: ₹499",
+    "shareCover": "SHARE MY COVER",
+    "createAnother": "CREATE ANOTHER STORY",
+    "replay": "↺ Watch the weaving again"
+  },
+  "share": {
+    "textTemplate": "I discovered my Katha. {name} & the {epithet} {animal}. Discover your child's story:"
+  },
+  "footer": {
+    "tagline": "A land of a million stories. Now one is theirs.",
+    "credit": "Made in India with Indian artists."
+  }
+}
